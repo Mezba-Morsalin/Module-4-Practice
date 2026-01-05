@@ -30,8 +30,51 @@
     font-size: 18px;   
 }
 .nav-bar ul li a:hover {
-    background-color: cornflowerblue;
-    padding: 10px;
+    color: rgb(233, 245, 19);
     transition: 0.5s;
+}
+.hero-section {
+    margin-top: 40px;
+}
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:cornflowerblue ;
+    padding:15px 40px;
+    border-radius: 20px;
+}
+.text{
+    color: white;
+}
+.text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.text button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+.text button:hover {
+    background-color: burlywood;
+    transition: 0.5s;
+    color: white;
+}
+.img {
+    width: 300px;
+}
+.img img {
+    width: 100%;
+    border-radius: 20px;
 }
