@@ -34,7 +34,7 @@
     transition: 0.5s;
 }
 .hero-section {
-    margin-top: 40px;
+     background-color:cornflowerblue ;
 }
 .hero-container {
     max-width: 1200px;
@@ -42,8 +42,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:cornflowerblue ;
-    padding:15px 40px;
+    padding:20px 0;
     border-radius: 20px;
 }
 .text{
@@ -77,4 +76,51 @@
 .img img {
     width: 100%;
     border-radius: 20px;
+}
+.card-section {
+    margin: 40px 0;
+    text-align: center;
+}
+.card-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+.card {
+    width: 350px;
+    background-color: cornflowerblue;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.card img {
+    width: 100%;
+    border-radius: 20px;
+}
+.card h3 {
+    color: white;
+    margin: 15px 0;
+}
+.card p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.card button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card button:hover {
+    background-color: burlywood;
+    transition: 0.5s;
+    color: white;
 }
