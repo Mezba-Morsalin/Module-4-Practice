@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Your Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section class="form-section">
+            <h2>Choose Your Course</h2>
+            <form>
+                <label for="name-1">First Name</label>
+                <input style="display: block; margin-bottom: 20px;" type="text" id="name-1" name="" placeholder="First Name" required>
+                <label for="name-2">Last Name</label>
+                <input style="display: block; margin-bottom: 20px;" type="text" id="name-2" name="" placeholder="Last Name" required><br>
+                <label for="email">Email Address</label>
+                <input style="display: block; margin-bottom: 20px;" type="email" id="email" name="" placeholder="Email Address" required>
+                <label for="password">Password</label>
+                <input style="display: block; margin-bottom: 20px;" type="password" name="" id="password" placeholder="Password" required><br>
+                <fieldset>
+                    <legend>Select Your Course</legend>
+                    <input type="radio" name="course" id="react">
+                    <label for="react">React</label>
+                    <input type="radio" name="course" id="nodejs">
+                    <label for="nodejs">Node.js</label>
+                    <input type="radio" name="course" id="mongodb">
+                    <label for="mongodb">MongoDB</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Select Your Session</legend>
+                    <input type="checkbox" name="Session" id="online">
+                    <label for="online">Online</label>
+                    <input type="checkbox" name="Session" id="offline">
+                    <label for="offline">Offline</label>
+                </fieldset>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
